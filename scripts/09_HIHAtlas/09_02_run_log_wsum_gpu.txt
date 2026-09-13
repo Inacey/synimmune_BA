@@ -1,0 +1,75 @@
+[2026-08-26 10:12:32] decoupler version: 2.2.0
+[2026-08-26 10:12:32] rapids_singlecell version: 0.16.1
+[2026-08-26 10:12:32] Setup complete.
+[2026-08-26 10:12:32] Level 1 — sources: 25, targets: 150 unique genes
+[2026-08-26 10:12:32] Level 2 — sources: 32, targets: 201 unique genes
+[2026-08-26 10:12:43] Data loaded: 129435 cells, 32338 genes
+[2026-08-26 10:12:43] adata.X max value: 106.46 (should already be log-normalised)
+[2026-08-26 10:12:43] No duplicate feature_name — OK
+[2026-08-26 10:12:43] var_names set to feature_name: 32338 genes
+[2026-08-26 10:12:43] Level 1: 5/247 marker rows reference genes NOT in adata.var_names: ['IL8', 'KIAA0101', 'SEPP1']
+[2026-08-26 10:12:43] Level 2: 1/307 marker rows reference genes NOT in adata.var_names: ['SOD2']
+[2026-08-26 10:12:43] Moving adata.X to GPU...
+[2026-08-26 10:12:44] adata.X now resident on GPU.
+[2026-08-26 10:12:44] Running rsc.dcg.waggr (fun='wsum') — Level 1 (25 cell types)
+[2026-08-26 10:12:56] Available obsm keys: ['X_pca', 'X_pca_harmony', 'X_umap', 'score_waggr', 'padj_waggr']
+[2026-08-26 10:12:56] Level 1 dominant cell type distribution:
+decoupler_level1_celltype
+B cells                     12048
+T cells regulatory          12036
+T cells naive               11701
+Monocytes                   10832
+NK                          10649
+pDC                          8814
+Macro. and mono. prolif.     7046
+CD8 effector memory          6993
+CD8 cytotoxic                6886
+CD4 effector memory          6734
+CD4 transitional memory      6595
+Plasma B cells               5104
+T helper cells               4035
+CD4 recently activated       3684
+CD8 pre-exhausted            3650
+B cells proliferative        3198
+CD8 terminally exhausted     2839
+cDC                          2399
+TAMs proinflammatory         2161
+mDC                          2031
+[2026-08-26 10:12:56] Running rsc.dcg.waggr (fun='wsum') — Level 2 (32 cell types)
+[2026-08-26 10:13:02] Available obsm keys: ['X_pca', 'X_pca_harmony', 'X_umap', 'level1_score_wsum', 'level1_padj_wsum', 'score_waggr', 'padj_waggr']
+[2026-08-26 10:13:02] Level 2 dominant cell type distribution:
+decoupler_level2_celltype
+CD8 cytotoxic                   14694
+NK                               9881
+T cells regulatory               9129
+DC2 CD1C+                        7711
+B cells (general)                7544
+CD4 transitional memory          7101
+DC4 CD1C-                        6913
+CD4 memory stem cells            6069
+CD4 resident effector memory     5866
+pDC                              5701
+Plasma B cells                   5586
+B cells unswitched memory        5571
+B cells proliferative            4981
+Th17_helper                      4328
+Macrophages CXCL10               4043
+CD8 activated                    3724
+CD4 activated                    3019
+Plasma blast                     2984
+B cells activated                2687
+CD8 exhausted                    2578
+CD4 effector memory RA           2293
+Macrophages SPP1                 2066
+B cells naive                    1462
+Monocytes tumor infiltrating     1370
+TAMs C1QC                        1163
+CD8 IFN activated                 971
+[2026-08-26 10:13:02] Moving adata.X back to CPU...
+[2026-08-26 10:13:02] adata.X now resident on CPU.
+[2026-08-26 10:13:02] Annotation table saved to /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/09_HIHAtlas/08_04_decoupler_gpu_celltype_annotation.csv
+... storing 'decoupler_level1_celltype' as categorical
+... storing 'decoupler_level2_celltype' as categorical
+[2026-08-26 10:13:06] UMAP saved: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/09_HIHAtlas/09_02_decoupler_level1_umap.pdf
+[2026-08-26 10:13:11] Annotated adata saved to /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/data/03_HIHAtlas/immune_cells_HIHA_TICAannot_gpu.h5ad
+[2026-08-26 10:13:11] ALL DONE!

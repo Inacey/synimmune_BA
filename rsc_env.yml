@@ -1,0 +1,20 @@
+name: rapids_singlecell
+channels:
+ - rapidsai
+ - nvidia
+ - conda-forge
+ - bioconda
+dependencies:
+ - rapids=26.08
+ - python=3.12
+ - cuda-version=12.4
+ - cudnn
+ - cutensor
+ - cusparselt
+ - jupyterlab
+ - pip
+ - pip:
+    - gdown
+    - wget
+    - scikit-misc
+    - rapids-singlecell-cu12

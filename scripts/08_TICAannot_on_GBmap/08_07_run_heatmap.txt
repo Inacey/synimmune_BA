@@ -1,0 +1,22 @@
+[2026-08-21 13:57:09] Loading annotated data (TICA/decoupler)
+[2026-08-21 13:57:55] Data loaded: 633710 cells
+[2026-08-21 13:57:55] TICA score matrix (level1): (633710, 25)
+[2026-08-21 13:57:55] Loading mp_scores
+[2026-08-21 13:57:58] Common cells: 633710 (dropping 0 mp_scores-only cells, 0 adata-only cells)
+[2026-08-21 13:57:58] Computing dominant MP per cell
+[2026-08-21 13:57:58] Keeping 235261 / 633710 cells (dropping 'Other')
+[2026-08-21 13:57:58]   MP1: 14773 -> 100 cells
+[2026-08-21 13:57:58]   MP2: 4578 -> 100 cells
+[2026-08-21 13:57:58]   MP7: 12206 -> 100 cells
+[2026-08-21 13:57:58]   MP8: 3138 -> 100 cells
+[2026-08-21 13:57:58]   MP9: 8517 -> 100 cells
+[2026-08-21 13:57:58]   MP11: 755 -> 100 cells
+[2026-08-21 13:57:58]   MP14: 25864 -> 100 cells
+[2026-08-21 13:57:58]   MP15: 158277 -> 100 cells
+[2026-08-21 13:57:58]   MP19: 2070 -> 100 cells
+[2026-08-21 13:57:58]   MP20: 5083 -> 100 cells
+[2026-08-21 13:57:58] Total cells after per-MP cap (100): 1000
+[2026-08-21 13:57:59] Matrix shape (transposed): (25, 1000) (TICA-cell types x Cells)
+[2026-08-21 13:57:59] Plotting heatmap (gridspec, aligned)
+[2026-08-21 13:57:59] Heatmap gespeichert: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/08_TICAtlas/08_07_mp_global_tica_level1_heatmap_100cells.pdf
+[2026-08-21 13:57:59] ALL DONE!

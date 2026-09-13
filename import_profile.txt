@@ -1,0 +1,31 @@
+import time: self [us] | cumulative | imported package
+import time:       104 |        104 |   _io
+import time:        18 |         18 |   marshal
+import time:       222 |        222 |   posix
+import time:      1212 |       1553 | _frozen_importlib_external
+import time:        71 |         71 |   time
+import time:       368 |        439 | zipimport
+import time:        28 |         28 |     _codecs
+import time:       195 |        223 |   codecs
+import time:      1048 |       1048 |   encodings.aliases
+import time:      2063 |       3334 | encodings
+import time:       819 |        819 | encodings.utf_8
+import time:        66 |         66 | _signal
+import time:        16 |         16 |     _abc
+import time:        72 |         88 |   abc
+import time:        98 |        185 | io
+import time:        27 |         27 |       _stat
+import time:        41 |         68 |     stat
+import time:       472 |        472 |     _collections_abc
+import time:        30 |         30 |       genericpath
+import time:        35 |         65 |     posixpath
+import time:       216 |        819 |   os
+import time:        40 |         40 |   _sitebuiltins
+import time:      1744 |       1744 |   _distutils_hack
+import time:        51 |         51 |   sitecustomize
+import time:        33 |         33 |   usercustomize
+import time:      1797 |       4482 | site
+import time:      1571 |       1571 | your_package
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'your_package'

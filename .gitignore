@@ -1,0 +1,11 @@
+.environments/
+*.h5ad
+*.pkl.gz
+results/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+scripts/04_HGNC_gene_names/04_4_nmf_subsets.txt
+04_4_nmf_subsets.txt
+04_4_nmf_subsets.txt

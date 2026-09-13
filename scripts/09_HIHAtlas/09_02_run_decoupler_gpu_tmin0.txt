@@ -1,0 +1,83 @@
+[2026-09-04 14:01:11] decoupler version: 2.2.0
+[2026-09-04 14:01:11] rapids_singlecell version: 0.16.1
+[2026-09-04 14:01:11] Setup complete.
+[2026-09-04 14:01:11] Level 1 — sources: 25, targets: 150 unique genes
+[2026-09-04 14:01:11] Level 2 — sources: 32, targets: 201 unique genes
+[2026-09-04 14:01:19] Data loaded: 129435 cells, 32338 genes
+[2026-09-04 14:01:20] adata.X max value: 106.46 (should already be log-normalised)
+[2026-09-04 14:01:20] No duplicate feature_name — OK
+[2026-09-04 14:01:20] var_names set to feature_name: 32338 genes
+[2026-09-04 14:01:20] Level 1: 5/247 marker rows reference genes NOT in adata.var_names: ['IL8', 'KIAA0101', 'SEPP1']
+[2026-09-04 14:01:20] Level 2: 1/307 marker rows reference genes NOT in adata.var_names: ['SOD2']
+[2026-09-04 14:01:20] Moving adata.X to GPU...
+[2026-09-04 14:01:21] adata.X now resident on GPU.
+[2026-09-04 14:01:21] Running rsc.dcg.waggr (fun='wsum') — Level 1 (25 cell types)
+[2026-09-04 14:01:30] Available obsm keys: ['X_pca', 'X_pca_harmony', 'X_umap', 'score_waggr', 'padj_waggr']
+[2026-09-04 14:01:30] Level 1 dominant cell type distribution:
+decoupler_level1_celltype
+B cells                     12006
+T cells regulatory          11321
+Monocytes                   10528
+T cells naive               10311
+NK                          10016
+pDC                          8738
+CD4 naive-memory             6389
+CD8 cytotoxic                6346
+CD4 transitional memory      6090
+CD4 effector memory          5795
+T cells proliferative        5160
+Plasma B cells               4909
+CD8 effector memory          4432
+Macro. and mono. prolif.     4067
+T helper cells               3718
+CD8 pre-exhausted            3433
+CD4 recently activated       3112
+CD8 terminally exhausted     2651
+B cells proliferative        2437
+cDC                          2292
+mDC                          1921
+TAMs proinflammatory         1911
+TAMs C1QC                    1852
+[2026-09-04 14:01:30] Running rsc.dcg.waggr (fun='wsum') — Level 2 (32 cell types)
+[2026-09-04 14:01:37] Available obsm keys: ['X_pca', 'X_pca_harmony', 'X_umap', 'level1_score_wsum', 'level1_padj_wsum', 'score_waggr', 'padj_waggr']
+[2026-09-04 14:01:37] Level 2 dominant cell type distribution:
+decoupler_level2_celltype
+CD8 cytotoxic                   14433
+NK                               9286
+T cells regulatory               8733
+DC2 CD1C+                        7406
+B cells (general)                6920
+CD4 transitional memory          6801
+DC4 CD1C-                        6748
+CD4 memory stem cells            5795
+CD4 resident effector memory     5762
+pDC                              5592
+B cells memory                   4994
+Plasma B cells                   4792
+Th17_helper                      4202
+Macrophages CXCL10               3875
+T cells proliferative            3644
+CD8 activated                    3609
+B cells unswitched memory        3249
+CD4 activated                    2878
+B cells proliferative            2843
+B cells activated                2606
+CD8 exhausted                    2476
+Plasma blast                     2471
+CD4 effector memory RA           2202
+Macrophages SPP1                 1785
+DC3 LAMP3                        1600
+Monocytes tumor infiltrating     1290
+Macro. and mono. prolif.         1218
+CD8 IFN activated                 865
+B cells naive                     553
+DC1                               511
+TAMs C1QC                         296
+[2026-09-04 14:01:37] Moving adata.X back to CPU...
+[2026-09-04 14:01:37] adata.X now resident on CPU.
+[2026-09-04 14:01:37] Annotation table saved to /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/09_HIHAtlas/09_02_decoupler_gpu_celltype_annotation.csv
+... storing 'decoupler_level1_celltype' as categorical
+... storing 'decoupler_level2_celltype' as categorical
+[2026-09-04 14:01:40] UMAP saved: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/09_HIHAtlas/09_02_decoupler_level1_umap.pdf
+[2026-09-04 14:01:45] Annotated adata saved to /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/data/03_HIHAtlas/HIHAtlas_ds_TICAannot_tmin0.h5ad
+[2026-09-04 14:01:45] ALL DONE!

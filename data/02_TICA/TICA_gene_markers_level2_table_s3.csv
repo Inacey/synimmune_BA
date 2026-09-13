@@ -1,0 +1,308 @@
+cell_type,gene,level
+B cells (general),MS4A1,level2
+B cells (general),CD79A,level2
+B cells (general),CD79B,level2
+B cells (general),VPREB3,level2
+B cells (general),CD19,level2
+B cells naive,IGHM,level2
+B cells naive,IGHD,level2
+B cells naive,CCR7,level2
+B cells naive,SELL,level2
+B cells activated,CD69,level2
+B cells activated,CD83,level2
+B cells activated,JUN,level2
+B cells activated,IRF4,level2
+B cells activated,MYC,level2
+B cells memory,CD27,level2
+B cells memory,XBP1,level2
+B cells memory,CLEC2D,level2
+B cells memory,SSPN,level2
+B cells unswitched memory,IGHM,level2
+B cells unswitched memory,IGHD,level2
+B cells unswitched memory,CD27,level2
+B cells unswitched memory,FCRL5,level2
+B cells proliferative,TCL1A,level2
+B cells proliferative,CD79B,level2
+B cells proliferative,CD79A,level2
+B cells proliferative,MS4A1,level2
+B cells proliferative,MKI67,level2
+Plasma B cells,JCHAIN,level2
+Plasma B cells,IGHGP,level2
+Plasma B cells,IGKC,level2
+Plasma B cells,IGHM,level2
+Plasma B cells,IGHG3,level2
+Plasma B cells,IGKV1D-39,level2
+Plasma B cells,IGHG2,level2
+Plasma B cells,IGLC3,level2
+Plasma B cells,IGHG1,level2
+Plasma B cells,IGHG4,level2
+Plasma B cells,IGHV4-4,level2
+Plasma B cells,XBP1,level2
+Plasma B cells,CD79A,level2
+Plasma B cells,CD38,level2
+Plasma B cells,MZB1,level2
+Plasma B cells,SSR4,level2
+Plasma B cells,DERL3,level2
+Plasma B cells,FKBP11,level2
+Plasma B cells,PRDX4,level2
+Plasma blast,IGHGP,level2
+Plasma blast,IGHG4,level2
+Plasma blast,JCHAIN,level2
+Plasma blast,IGLC3,level2
+Plasma blast,IGHG1,level2
+Plasma blast,MZB1,level2
+Plasma blast,IGKC,level2
+Plasma blast,IGHM,level2
+Plasma blast,XBP1,level2
+CD4 memory stem cells,IL7R,level2
+CD4 memory stem cells,CCR7,level2
+CD4 memory stem cells,TCF7,level2
+CD4 memory stem cells,KLRB1,level2
+CD4 memory stem cells,GPR183,level2
+CD4 memory stem cells,SELL,level2
+CD4 memory stem cells,LEF1,level2
+CD4 memory stem cells,CXCR4,level2
+CD4 memory stem cells,RORA,level2
+CD4 memory stem cells,FOXP1,level2
+CD4 memory stem cells,CCL5,level2
+CD4 memory stem cells,CD3E,level2
+CD4 memory stem cells,CXCR6,level2
+CD4 effector memory RA,TXNIP,level2
+CD4 effector memory RA,KLRD1,level2
+CD4 effector memory RA,KLF2,level2
+CD4 effector memory RA,PRF1,level2
+CD4 effector memory RA,TRBC2,level2
+CD4 effector memory RA,TRBC1,level2
+CD4 effector memory RA,TGFBI,level2
+CD4 effector memory RA,SPON2,level2
+CD4 effector memory RA,CCL4,level2
+CD4 effector memory RA,IL7R,level2
+CD4 effector memory RA,TCF7,level2
+CD4 effector memory RA,SPN,level2
+CD4 effector memory RA,ITGAL,level2
+CD4 effector memory RA,IL6ST,level2
+CD4 effector memory RA,ZNF683,level2
+CD4 activated,DUSP2,level2
+CD4 activated,CD69,level2
+CD4 activated,JUN,level2
+CD4 activated,JUNB,level2
+CD4 transitional memory,CXCL13,level2
+CD4 transitional memory,TNFRSF4,level2
+CD4 transitional memory,TIGIT,level2
+CD4 transitional memory,IL6ST,level2
+CD4 transitional memory,PASK,level2
+CD4 transitional memory,KLRB1,level2
+CD4 transitional memory,CD40LG,level2
+CD4 transitional memory,TOX,level2
+CD4 transitional memory,LEF1,level2
+CD4 transitional memory,ICOS,level2
+CD4 transitional memory,CD28,level2
+CD4 transitional memory,TOX2,level2
+CD4 transitional memory,CCR7,level2
+CD4 transitional memory,CD247,level2
+CD4 transitional memory,RORA,level2
+CD4 transitional memory,PDCD1,level2
+CD4 resident effector memory,KLRB1,level2
+CD4 resident effector memory,IL7R,level2
+CD4 resident effector memory,LTB,level2
+CD4 resident effector memory,S100A4,level2
+CD4 resident effector memory,RORA,level2
+CD4 resident effector memory,CD40LG,level2
+CD4 resident effector memory,CXCR6,level2
+CD4 resident effector memory,CD69,level2
+CD4 resident effector memory,IL32,level2
+CD8 activated,IFI6,level2
+CD8 activated,IFIT3,level2
+CD8 activated,IFI44L,level2
+CD8 activated,LY6E,level2
+CD8 activated,IFI44,level2
+CD8 activated,STAT1,level2
+CD8 activated,IFI35,level2
+CD8 activated,IRF7,level2
+CD8 activated,IFITM1,level2
+CD8 activated,IFI16,level2
+CD8 activated,CD38,level2
+CD8 activated,IFNG,level2
+CD8 activated,GZMA,level2
+CD8 activated,GZMK,level2
+CD8 activated,CXCL13,level2
+CD8 activated,CD69,level2
+CD8 activated,RUNX3,level2
+CD8 activated,IL32,level2
+CD8 activated,IL2RG,level2
+CD8 cytotoxic,GZMK,level2
+CD8 cytotoxic,DUSP2,level2
+CD8 cytotoxic,CCL5,level2
+CD8 cytotoxic,ANXA1,level2
+CD8 cytotoxic,NKG7,level2
+CD8 cytotoxic,FYN,level2
+CD8 cytotoxic,XCL2,level2
+CD8 cytotoxic,GZMM,level2
+CD8 cytotoxic,EOMES,level2
+CD8 cytotoxic,CCL4,level2
+CD8 cytotoxic,GZMA,level2
+CD8 cytotoxic,CXCR3,level2
+CD8 cytotoxic,KLRG1,level2
+CD8 cytotoxic,XCL1,level2
+CD8 exhausted,CXCL13,level2
+CD8 exhausted,LAG3,level2
+CD8 exhausted,HAVCR2,level2
+CD8 exhausted,TIGIT,level2
+CD8 exhausted,PDCD1,level2
+CD8 exhausted,PRF1,level2
+CD8 exhausted,TOX,level2
+CD8 IFN activated,IFITM1,level2
+CD8 IFN activated,IFITM3,level2
+CD8 IFN activated,NFKBIA,level2
+CD8 IFN activated,CD69,level2
+CD8 IFN activated,IFITM2,level2
+CD8 IFN activated,FOS,level2
+CD8 IFN activated,IL32,level2
+T cells regulatory,TNFRSF4,level2
+T cells regulatory,FOXP3,level2
+T cells regulatory,TNFRSF18,level2
+T cells regulatory,BATF,level2
+T cells regulatory,IL2RA,level2
+T cells regulatory,IL32,level2
+T cells regulatory,TIGIT,level2
+T cells regulatory,LTB,level2
+T cells regulatory,CTLA4,level2
+T cells regulatory,ICOS,level2
+T cells proliferative,HMGB2,level2
+T cells proliferative,MKI67,level2
+T cells proliferative,HMGN2,level2
+T cells proliferative,TOP2A,level2
+T cells proliferative,CXCL13,level2
+Th17/helper,IL17A,level2
+Th17/helper,IL17F,level2
+Th17/helper,BATF,level2
+Th17/helper,IL2RA,level2
+Th17/helper,DUSP4,level2
+Th17/helper,IL21R,level2
+Th17/helper,CTLA4,level2
+Th17/helper,IRF4,level2
+Th17/helper,CCL20,level2
+Th17/helper,IL26,level2
+Th17/helper,BATF3,level2
+Th17/helper,IL4R,level2
+Th17/helper,STAT3,level2
+Th17/helper,RORA,level2
+NK,GNLY,level2
+NK,PRF1,level2
+NK,NKG7,level2
+NK,KLRD1,level2
+NK,SPON2,level2
+NK,CTSW,level2
+NK,FCGR3A,level2
+NK,GZMB,level2
+NK,CX3CR1,level2
+NK,CMC1,level2
+NK,FOSL2,level2
+NK,KLRC3,level2
+NK,KLRC4,level2
+Macrophages SPP1,SPP1,level2
+Macrophages SPP1,APOE,level2
+Macrophages SPP1,C1QB,level2
+Macrophages SPP1,C1QA,level2
+Macrophages SPP1,APOC1,level2
+Macrophages SPP1,C1QC,level2
+Macrophages SPP1,HLA-DRA,level2
+Macrophages SPP1,CTSB,level2
+Macrophages SPP1,CD68,level2
+Macrophages SPP1,SELENOP,level2
+Macrophages SPP1,HLA-DRB1,level2
+Macrophages SPP1,HLA-DPB1,level2
+Macrophages SPP1,CD14,level2
+Macrophages SPP1,FCER1G,level2
+Macrophages SPP1,CD74,level2
+Macrophages SPP1,FCGR3A,level2
+Macrophages SPP1,CD163,level2
+Macrophages SPP1,MSR1,level2
+Macrophages SPP1,A2M,level2
+TAMs C1QC,C1QB,level2
+TAMs C1QC,C1QA,level2
+TAMs C1QC,C1QC,level2
+TAMs C1QC,APOE,level2
+TAMs C1QC,SELENOP,level2
+TAMs C1QC,CD14,level2
+TAMs C1QC,SPP1,level2
+TAMs C1QC,CD68,level2
+TAMs C1QC,CD163,level2
+TAMs C1QC,CXCL2,level2
+TAMs C1QC,CSF1R,level2
+TAMs C1QC,FCGR3A,level2
+TAMs C1QC,IL1B,level2
+TAMs C1QC,PLTP,level2
+TAMs C1QC,MRC1,level2
+TAMs C1QC,SIRPA,level2
+TAMs C1QC,CD40,level2
+Macrophages CXCL10,CXCL10,level2
+Macrophages CXCL10,IL1RN,level2
+Macrophages CXCL10,CCL2,level2
+Macrophages CXCL10,CCL8,level2
+Macrophages CXCL10,CXCL11,level2
+Macrophages CXCL10,LYZ,level2
+Macrophages CXCL10,FCN1,level2
+Macrophages CXCL10,S100A9,level2
+Macrophages CXCL10,S100A8,level2
+Macrophages CXCL10,CD68,level2
+Macrophages CXCL10,CD14,level2
+Macrophages CXCL10,SERPINA1,level2
+Macrophages CXCL10,LILRB2,level2
+Macrophages CXCL10,LGALS9,level2
+Macrophages CXCL10,FCGR2A,level2
+Macrophages CXCL10,IL1B,level2
+Macrophages CXCL10,LILRB4,level2
+Macrophages CXCL10,CD274,level2
+Macro. and mono. prolif.,SPP1,level2
+Macro. and mono. prolif.,C1QC,level2
+Macro. and mono. prolif.,C1QB,level2
+Macro. and mono. prolif.,C1QA,level2
+Macro. and mono. prolif.,PLTP,level2
+Macro. and mono. prolif.,SELENOP,level2
+Macro. and mono. prolif.,LYVE1,level2
+Monocytes tumor infiltrating,S100A9,level2
+Monocytes tumor infiltrating,S100A8,level2
+Monocytes tumor infiltrating,CXCL8,level2
+Monocytes tumor infiltrating,IL1B,level2
+Monocytes tumor infiltrating,CCL3L3,level2
+Monocytes tumor infiltrating,LYZ,level2
+Monocytes tumor infiltrating,G0S2,level2
+Monocytes tumor infiltrating,SOD2,level2
+Monocytes tumor infiltrating,CXCL2,level2
+Monocytes tumor infiltrating,CXCL3,level2
+Monocytes tumor infiltrating,CD14,level2
+Monocytes tumor infiltrating,CSF3R,level2
+DC1,HLA-DPA1,level2
+DC1,IDO1,level2
+DC1,C1orf54,level2
+DC1,CLEC9A,level2
+DC1,SERPINB1,level2
+DC1,XCR1,level2
+DC2 CD1C+,HLA-DRA,level2
+DC2 CD1C+,CST3,level2
+DC2 CD1C+,HLA-DPB1,level2
+DC2 CD1C+,HLA-DPA1,level2
+DC2 CD1C+,HLA-DQB1,level2
+DC2 CD1C+,FCER1A,level2
+DC2 CD1C+,CD1C,level2
+DC3 LAMP3,FSCN1,level2
+DC3 LAMP3,LAMP3,level2
+DC3 LAMP3,CCR7,level2
+DC3 LAMP3,IDO1,level2
+DC3 LAMP3,HLA-DQA1,level2
+DC3 LAMP3,CD274,level2
+DC4 CD1C-,LST1,level2
+DC4 CD1C-,AIF1,level2
+DC4 CD1C-,SERPINA1,level2
+DC4 CD1C-,FCGR3A,level2
+DC4 CD1C-,LILRB2,level2
+DC4 CD1C-,CSF1R,level2
+pDC,IRF7,level2
+pDC,IRF8,level2
+pDC,TCF4,level2
+pDC,GZMB,level2
+pDC,IL3RA,level2
+Mast cells,TPSB2,level2
+Mast cells,TPSAB1,level2
+Mast cells,KIT,level2

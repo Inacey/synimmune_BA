@@ -1,0 +1,53 @@
+[2026-08-21 09:52:19] Loading annotated data (TICA/decoupler annotation)
+[2026-08-21 09:53:08] Data loaded: 633710 cells
+[2026-08-21 09:53:08] Loading mp_scores
+[2026-08-21 09:53:10] Common cells: 633710 (dropping 0 mp_scores-only cells, 0 adata-only cells)
+[2026-08-21 09:53:10] Calculate mean MP-Score per TICA cell type (level1)
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+[2026-08-21 09:53:12] mean_scores shape: (25, 10) (erwartet: 25 Zeilen)
+[2026-08-21 09:53:12] Table (level1) saved
+[2026-08-21 09:53:12] Heatmap (level1) saved: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/08_TICAtlas/08_06_mp_mean_score_by_decoupler_level1_heatmap.pdf
+[2026-08-21 09:53:12] Calculate mean MP-Score per TICA cell type (level2)
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+/net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/scripts/08_TICAtlas/08_06_heatmap_mean_mpscore_vs_level.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = pd.Series(mp_scores_sel[mp].values, index=common_cells).groupby(obs_col_common).mean()
+[2026-08-21 09:53:14] mean_scores shape: (32, 10) (erwartet: 32 Zeilen)
+[2026-08-21 09:53:14] Table (level2) saved
+[2026-08-21 09:53:14] Heatmap (level2) saved: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/08_TICAtlas/08_06_mp_mean_score_by_decoupler_level2_heatmap.pdf
+[2026-08-21 09:53:14] ALL DONE!

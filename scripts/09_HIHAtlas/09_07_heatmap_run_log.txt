@@ -1,0 +1,20 @@
+[2026-08-27 16:49:46] Loading HIHA annotated data (TICA/decoupler)
+[2026-08-27 16:49:56] Data loaded: 129435 cells
+[2026-08-27 16:49:56] TICA score matrix (level1): (129435, 20)
+[2026-08-27 16:49:56] Loading mp_scores
+[2026-08-27 16:49:56] Common cells: 129435 (dropping 0 mp_scores-only cells, 0 adata-only cells)
+[2026-08-27 16:49:56] Computing dominant MP per cell
+[2026-08-27 16:49:56] Keeping 108757 / 129435 cells (dropping 'Other')
+[2026-08-27 16:49:57]   MP1: 18572 -> 500 cells
+[2026-08-27 16:49:57]   MP2: 21304 -> 500 cells
+[2026-08-27 16:49:57]   MP3: 24326 -> 500 cells
+[2026-08-27 16:49:57]   MP4: 4822 -> 500 cells
+[2026-08-27 16:49:57]   MP5: 5061 -> 500 cells
+[2026-08-27 16:49:57]   MP6: 31771 -> 500 cells
+[2026-08-27 16:49:57]   MP7: 730 -> 500 cells
+[2026-08-27 16:49:57]   MP8: 2171 -> 500 cells
+[2026-08-27 16:49:57] Total cells after per-MP cap (500): 4000
+[2026-08-27 16:49:57] Matrix shape (transposed): (20, 4000) (TICA-cell types x Cells)
+[2026-08-27 16:49:57] Plotting heatmap (gridspec, aligned)
+[2026-08-27 16:49:57] Heatmap gespeichert: /net/bq-storage/ag-cherrmann/bq_cinac/projects/synimmune/results/09_HIHAtlas/09_07_heatmap_healthy_tica_level1_500cells.pdf
+[2026-08-27 16:49:57] ALL DONE!
