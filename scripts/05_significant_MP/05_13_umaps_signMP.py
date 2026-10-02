@@ -48,7 +48,7 @@ else:
 
 # Plot all 11 MPs in one PDF
 checkpoint("Plotting UMAPs")
-n_cols = 3
+n_cols = 5
 n_rows = -(-len(SELECTED_MPS) // n_cols)  # ceiling division
 
 fig, axes = plt.subplots(n_rows, n_cols, figsize=(n_cols * 6, n_rows * 5))

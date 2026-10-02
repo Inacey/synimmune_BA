@@ -44,7 +44,7 @@ OUT_DIR = f"{BASE}/results/08_TICAtlas"
 ANNOTATED_H5AD_OUT = f"{BASE}/data/01_extGBmap/immune_cells_gbmap_TICAannot_gpu_tmin2.h5ad"
 os.makedirs(OUT_DIR, exist_ok=True)
 
-TMIN = 2  # minimum number of marker genes (present in adata) required per cell type
+TMIN = 3  # minimum number of marker genes (present in adata) required per cell type
 
 checkpoint(f"decoupler version: {dc.__version__}")
 checkpoint(f"rapids_singlecell version: {rsc.__version__}")

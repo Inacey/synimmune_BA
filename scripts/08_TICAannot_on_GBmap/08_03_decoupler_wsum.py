@@ -1,7 +1,7 @@
 # %% [markdown]
-# # 05_21 — GBmap immune cell annotation via decoupler (TICA marker sets, wsum)
+# # 08_03 — GBmap immune cell annotation via decoupler (TICA marker sets, wsum)
 # 
-# **Run with the `kaleidocell_env` conda env.**
+# **Run with the `decoupler_gpu` conda env.**
 # 
 # Annotates all cells in `immune_cells_extended_gbmap_hgnc.h5ad` independently of GBmap's own
 # cell-type labels, using canonical marker gene sets (TICA Supplementary Table 2 / Table 3)

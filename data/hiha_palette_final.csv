@@ -1,0 +1,39 @@
+hiha_cell_type_CL,AIFI_L2_name_match,hex_color
+"naive thymus-derived CD4-positive, alpha-beta T cell",Naive CD4 T cell,#5480A3
+"CD14-positive, CD16-negative classical monocyte",Classical monocyte,#8C564B
+"central memory CD4-positive, alpha-beta T cell",Memory CD4 T cell,#233C5B
+"effector memory CD8-positive, alpha-beta T cell",Memory CD8 T cell,#1F77B4
+"effector memory CD4-positive, alpha-beta T cell",Memory CD4 T cell,#233C5B
+"CD16-positive, CD56-dim natural killer cell, human",CD56dim CD16+ NK cell,#D62728
+"naive thymus-derived CD8-positive, alpha-beta T cell",Naive CD8 T cell,#9467BD
+naive B cell,Naive B cell,#2CA02C
+mature gamma-delta T cell,Gamma delta T cell,#FF7F0E
+memory B cell,Memory B cell,#17BECF
+mucosal-associated invariant T cell,MAIT cell,#BCBD22
+"CD14-low, CD16-positive monocyte",Non-classical monocyte,#E377C2
+"central memory CD8-positive, alpha-beta T cell",Memory CD8 T cell,#1F77B4
+"CD4-positive, alpha-beta memory T cell",Memory CD4 T cell,#233C5B
+memory regulatory T cell,Memory Treg,#7F7F7F
+naive regulatory T cell,Naive Treg,#AEC7E8
+CD1c-positive myeloid dendritic cell,cDC2,#FFBB78
+intermediate monocyte,Intermediate monocyte,#98DF8A
+transitional stage B cell,Transitional B cell,#FF9896
+Be cell,Naive B cell,#2CA02C
+"CD16-negative, CD56-bright natural killer cell, human",CD56bright NK cell,#C5B0D5
+platelet,,#1f77b4
+plasmacytoid dendritic cell,pDC,#C49C94
+CD8aa(I) thymocyte,,#aec7e8
+natural killer cell,CD56dim CD16+ NK cell,#D62728
+memory CCR4-positive regulatory T cell,Memory Treg,#7F7F7F
+double negative thymocyte,,#ff7f0e
+T cell,,#ffbb78
+plasma cell,Plasma cell,#F7B6D2
+"CD8-positive, alpha-beta regulatory T cell",,#2ca02c
+erythrocyte,,#98df8a
+"CD8-positive, alpha-beta memory T cell",Memory CD8 T cell,#1F77B4
+common myeloid progenitor,,#d62728
+CD141-positive myeloid dendritic cell,cDC1,#DBDB8D
+innate lymphoid cell,,#ff9896
+"Axl+ dendritic cell, human",ASDC,#9EDAE5
+common lymphoid progenitor,,#9467bd
+basophil mast progenitor cell,,#c5b0d5
